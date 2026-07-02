@@ -5,7 +5,7 @@
 // ─────────────────────────────────────────────────────────────
 
 export const SITE = {
-  name: "danila",
+  name: "kamowen",
   tld: "dev",
   github: "https://github.com/your-username",
   email: "karnadg12345@gmail.com",

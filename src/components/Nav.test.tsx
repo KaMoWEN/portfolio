@@ -9,7 +9,7 @@ afterEach(cleanup);
 describe("Nav", () => {
   it("renders the logo and all navigation links", () => {
     render(<Nav />);
-    expect(screen.getByText("danila")).toBeTruthy();
+    expect(screen.getByText("kamowen")).toBeTruthy();
     for (const item of NAV) {
       expect(screen.getAllByText(item.label).length).toBeGreaterThan(0);
     }

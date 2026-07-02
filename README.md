@@ -1,4 +1,4 @@
-# danila.dev · Portfolio
+# kamowen.dev · Portfolio
 
 Personal portfolio of a junior frontend developer. Built in React + TypeScript with a dark, typography-first design.
 
