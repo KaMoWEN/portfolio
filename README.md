@@ -1,32 +1,35 @@
-# React + TypeScript + Vite
+# danila.dev · Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Personal portfolio of a junior frontend developer. Built in React + TypeScript with a dark, typography-first design.
 
-Currently, two official plugins are available:
+🔗 **Live demo:** _coming soon (Vercel)_ · 💻 **Code:** this repository
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+![Screenshot](./screenshot.png)
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Requirement coverage matrix: every skill from a typical junior frontend vacancy mapped to the project that proves it
+- Editorial project list with per-project stack and links
+- Entrance and scroll-reveal animations that respect `prefers-reduced-motion`
+- Fully responsive, keyboard-navigable, visible focus states
 
-## Expanding the Oxlint configuration
+## Stack
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+React · TypeScript · Vite · Tailwind CSS v4 · Motion · Phosphor Icons
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
+## Run locally
+
+```bash
+npm install
+npm run dev
 ```
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+Build for production:
+
+```bash
+npm run build
+```
+
+## What I learned
+
+Splitting a single-file prototype into typed modules (`types.ts`, `data/`, `components/`) made the page far easier to change, and strict TypeScript caught prop mistakes before the browser did. The hardest part was restraint: one accent color, one type family, and letting spacing do the work.
