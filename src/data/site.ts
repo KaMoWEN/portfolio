@@ -1,9 +1,3 @@
-// ─────────────────────────────────────────────────────────────
-// TODO before publishing:
-//   • github → your GitHub profile URL
-//   • each project's demo / repo links live in data/projects.ts
-// ─────────────────────────────────────────────────────────────
-
 export const SITE = {
   name: "kamowen",
   tld: "dev",
