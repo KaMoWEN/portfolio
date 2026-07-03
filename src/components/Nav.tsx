@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { List, X } from "@phosphor-icons/react";
+import { ListIcon, XIcon } from "@phosphor-icons/react";
 import { NAV, SITE } from "../data/site";
 
 export function Nav() {
@@ -34,7 +34,7 @@ export function Nav() {
           aria-expanded={menuOpen}
           className="rounded-md p-1.5 text-zinc-300 transition-colors hover:text-zinc-100 focus-visible:ring-2 focus-visible:ring-accent md:hidden"
         >
-          {menuOpen ? <X size={20} /> : <List size={20} />}
+          {menuOpen ? <XIcon size={20} /> : <ListIcon size={20} />}
         </button>
       </nav>
 

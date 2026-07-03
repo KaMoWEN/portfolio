@@ -7,7 +7,7 @@
 export const SITE = {
   name: "kamowen",
   tld: "dev",
-  github: "https://github.com/your-username",
+  github: "https://github.com/KaMoWEN",
   email: "karnadg12345@gmail.com",
   location: "Nha Trang, Vietnam",
   availability: "Open to junior frontend roles",

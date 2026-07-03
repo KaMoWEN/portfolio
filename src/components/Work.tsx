@@ -1,4 +1,4 @@
-import { ArrowUpRight, GithubLogo } from "@phosphor-icons/react";
+import { ArrowUpRightIcon, GithubLogoIcon } from "@phosphor-icons/react";
 import type { Project } from "../types";
 import { PROJECTS } from "../data/projects";
 import { Chip } from "./Chip";
@@ -40,13 +40,13 @@ function ProjectRow({ project }: { project: Project }) {
               href={project.demo}
               className="inline-flex items-center gap-1.5 font-mono text-xs text-zinc-300 underline-offset-4 transition-colors hover:text-accent hover:underline focus-visible:text-accent"
             >
-              Live demo <ArrowUpRight size={14} />
+              Live demo <ArrowUpRightIcon size={14} />
             </a>
             <a
               href={project.repo}
               className="inline-flex items-center gap-1.5 font-mono text-xs text-zinc-300 underline-offset-4 transition-colors hover:text-accent hover:underline focus-visible:text-accent"
             >
-              Code <GithubLogo size={14} />
+              Code <GithubLogoIcon size={14} />
             </a>
           </div>
         </div>

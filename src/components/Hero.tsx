@@ -1,5 +1,5 @@
 import { motion, useReducedMotion } from "motion/react";
-import { ArrowRight, GithubLogo } from "@phosphor-icons/react";
+import { ArrowRightIcon, GithubLogoIcon } from "@phosphor-icons/react";
 import { SITE } from "../data/site";
 
 const ease = [0.16, 1, 0.3, 1] as const;
@@ -46,7 +46,7 @@ export function Hero() {
           href="#work"
           className="inline-flex items-center gap-2 rounded-full bg-accent px-6 py-3 text-sm font-semibold text-ink transition-transform hover:-translate-y-0.5 active:scale-[0.98] focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 focus-visible:ring-offset-ink"
         >
-          View work <ArrowRight size={16} weight="bold" />
+          View work <ArrowRightIcon size={16} weight="bold" />
         </a>
         <a
           href={SITE.github}
@@ -54,7 +54,7 @@ export function Hero() {
           rel="noreferrer"
           className="inline-flex items-center gap-2 rounded-full border border-zinc-700 px-6 py-3 text-sm font-semibold text-zinc-100 transition-colors hover:border-zinc-500 active:scale-[0.98]"
         >
-          <GithubLogo size={16} /> GitHub
+          <GithubLogoIcon size={16} /> GitHub
         </a>
       </motion.div>
     </section>

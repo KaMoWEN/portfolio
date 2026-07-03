@@ -1,8 +1,8 @@
 import {
-  GlobeSimple,
-  FilmSlate,
-  Kanban,
-  DeviceMobile,
+  GlobeSimpleIcon,
+  FilmSlateIcon,
+  KanbanIcon,
+  DeviceMobileIcon,
 } from "@phosphor-icons/react";
 import type { Project, Requirement, StackGroup } from "../types";
 
@@ -21,7 +21,7 @@ export const REQUIREMENTS: Requirement[] = [
 export const PROJECTS: Project[] = [
   {
     code: "01",
-    icon: GlobeSimple,
+    icon: GlobeSimpleIcon,
     title: "This Portfolio",
     tagline: "The site you are reading, built in React and TypeScript.",
     proves:
@@ -33,7 +33,7 @@ export const PROJECTS: Project[] = [
   },
   {
     code: "02",
-    icon: FilmSlate,
+    icon: FilmSlateIcon,
     title: "CineScope",
     tagline: "Movie discovery app driven by the TMDB REST API.",
     proves:
@@ -45,7 +45,7 @@ export const PROJECTS: Project[] = [
   },
   {
     code: "03",
-    icon: Kanban,
+    icon: KanbanIcon,
     title: "FlowBoard",
     tagline: "A Kanban board with drag-and-drop and persistent state.",
     proves:
@@ -57,7 +57,7 @@ export const PROJECTS: Project[] = [
   },
   {
     code: "04",
-    icon: DeviceMobile,
+    icon: DeviceMobileIcon,
     title: "PocketWeather",
     tagline: "A weather app for iOS and Android built with Expo.",
     proves:
