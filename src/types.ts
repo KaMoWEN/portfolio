@@ -24,7 +24,8 @@ export interface Project {
   proves: string;
   stack: string[];
   covers: RequirementId[];
-  demo: string;
+  /** Omitted when the project has no hosted demo (e.g. mobile apps). */
+  demo?: string;
   repo: string;
 }
 

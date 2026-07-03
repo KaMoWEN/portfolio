@@ -36,14 +36,20 @@ function ProjectRow({ project }: { project: Project }) {
             ))}
           </div>
           <div className="flex items-center gap-5">
-            <a
-              href={project.demo}
-              className="inline-flex items-center gap-1.5 font-mono text-xs text-zinc-300 underline-offset-4 transition-colors hover:text-accent hover:underline focus-visible:text-accent"
-            >
-              Live demo <ArrowUpRightIcon size={14} />
-            </a>
+            {project.demo && (
+              <a
+                href={project.demo}
+                target="_blank"
+                rel="noreferrer"
+                className="inline-flex items-center gap-1.5 font-mono text-xs text-zinc-300 underline-offset-4 transition-colors hover:text-accent hover:underline focus-visible:text-accent"
+              >
+                Live demo <ArrowUpRightIcon size={14} />
+              </a>
+            )}
             <a
               href={project.repo}
+              target="_blank"
+              rel="noreferrer"
               className="inline-flex items-center gap-1.5 font-mono text-xs text-zinc-300 underline-offset-4 transition-colors hover:text-accent hover:underline focus-visible:text-accent"
             >
               Code <GithubLogoIcon size={14} />

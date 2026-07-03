@@ -24,11 +24,13 @@ describe("projects data integrity", () => {
     }
   });
 
-  it("gives every project a non-empty stack and links", () => {
+  it("gives every project a non-empty stack and valid links", () => {
     for (const p of PROJECTS) {
       expect(p.stack.length).toBeGreaterThan(0);
-      expect(p.demo.length).toBeGreaterThan(0);
-      expect(p.repo.length).toBeGreaterThan(0);
+      expect(p.repo).toMatch(/^https:\/\//);
+      if (p.demo !== undefined) {
+        expect(p.demo).toMatch(/^https:\/\//);
+      }
     }
   });
 });

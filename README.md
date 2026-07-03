@@ -2,7 +2,7 @@
 
 Personal portfolio of a junior frontend developer. Built in React + TypeScript with a dark, typography-first design.
 
-🔗 **Live demo:** _coming soon (Vercel)_ · 💻 **Code:** this repository
+🔗 **Live demo:** [portfolio-pi-one-55befe706c.vercel.app](https://portfolio-pi-one-55befe706c.vercel.app) · 💻 **Code:** this repository
 
 ![Screenshot](./screenshot.png)
 

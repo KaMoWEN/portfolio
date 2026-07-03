@@ -28,8 +28,8 @@ export const PROJECTS: Project[] = [
       "Component architecture, typed props, responsive layout, and attention to detail.",
     stack: ["React", "TypeScript", "Vite", "Tailwind"],
     covers: ["ts", "react", "web", "ux", "git", "clean"],
-    demo: "#",
-    repo: "#",
+    demo: "https://portfolio-pi-one-55befe706c.vercel.app",
+    repo: "https://github.com/KaMoWEN/portfolio",
   },
   {
     code: "02",
@@ -40,8 +40,8 @@ export const PROJECTS: Project[] = [
       "Async fetching, debounced search with request cancellation, routing, pagination, and loading / error / empty states.",
     stack: ["React", "TypeScript", "React Router", "REST"],
     covers: ["ts", "react", "rest", "ux", "clean"],
-    demo: "#",
-    repo: "#",
+    demo: "https://cinescope-omega-five.vercel.app",
+    repo: "https://github.com/KaMoWEN/cinescope",
   },
   {
     code: "03",
@@ -52,8 +52,8 @@ export const PROJECTS: Project[] = [
       "Reducer-based state management, domain modelling in TypeScript, unit-tested logic, and accessible drag-and-drop.",
     stack: ["React", "TypeScript", "dnd-kit", "Vitest"],
     covers: ["ts", "react", "arch", "clean", "ux"],
-    demo: "#",
-    repo: "#",
+    demo: "https://flowboard-ruby.vercel.app",
+    repo: "https://github.com/KaMoWEN/flowboard",
   },
   {
     code: "04",
@@ -64,8 +64,7 @@ export const PROJECTS: Project[] = [
       "React Native fundamentals, a shared typed API layer, mobile UX, and REST integration without an API key.",
     stack: ["React Native", "TypeScript", "Expo", "REST"],
     covers: ["ts", "rn", "rest", "arch"],
-    demo: "#",
-    repo: "#",
+    repo: "https://github.com/KaMoWEN/pocketweather",
   },
 ];
 
