@@ -3,6 +3,7 @@ import {
   FilmSlateIcon,
   KanbanIcon,
   DeviceMobileIcon,
+  ChartLineUpIcon,
 } from "@phosphor-icons/react";
 import type { Project, Requirement, StackGroup } from "../types";
 
@@ -65,6 +66,18 @@ export const PROJECTS: Project[] = [
     stack: ["React Native", "TypeScript", "Expo", "REST"],
     covers: ["ts", "rn", "rest", "arch"],
     repo: "https://github.com/KaMoWEN/pocketweather",
+  },
+  {
+    code: "05",
+    icon: ChartLineUpIcon,
+    title: "MarketDesk",
+    tagline: "Crypto market and portfolio tracker with live prices.",
+    proves:
+      "Server-side API key via a serverless proxy, React Query data layer, pure unit-tested portfolio math, code-splitting, and CI.",
+    stack: ["React", "TanStack Query", "Recharts", "Serverless"],
+    covers: ["react", "web", "rest", "arch", "clean", "ux", "git"],
+    demo: "https://market-desk-five.vercel.app",
+    repo: "https://github.com/KaMoWEN/MarketDesk",
   },
 ];
 
