@@ -1,21 +1,21 @@
-# kamowen.dev · Portfolio
+# kamowen.dev
 
-Personal portfolio of a junior frontend developer. Built in React + TypeScript with a dark, typography-first design.
+My personal site. React + TypeScript, dark theme, one accent color.
 
-🔗 **Live demo:** [portfolio-pi-one-55befe706c.vercel.app](https://portfolio-pi-one-55befe706c.vercel.app) · 💻 **Code:** this repository
+Live: [portfolio-pi-one-55befe706c.vercel.app](https://portfolio-pi-one-55befe706c.vercel.app)
 
 ![Screenshot](./screenshot.png)
 
-## Features
+## What's inside
 
-- Requirement coverage matrix: every skill from a typical junior frontend vacancy mapped to the project that proves it
-- Editorial project list with per-project stack and links
-- Entrance and scroll-reveal animations that respect `prefers-reduced-motion`
-- Fully responsive, keyboard-navigable, visible focus states
+- A "Skills, with proof" section: each skill links to the project that shows it, so nothing on the list is just a word
+- Project list with stack and links for every project
+- Enter and scroll animations that switch off when `prefers-reduced-motion` is set
+- Works with a keyboard, focus states are visible everywhere
 
 ## Stack
 
-React · TypeScript · Vite · Tailwind CSS v4 · Motion · Phosphor Icons
+React, TypeScript, Vite, Tailwind CSS v4, Motion, Phosphor Icons
 
 ## Run locally
 
@@ -24,7 +24,7 @@ npm install
 npm run dev
 ```
 
-Build for production:
+Production build:
 
 ```bash
 npm run build
@@ -32,4 +32,4 @@ npm run build
 
 ## What I learned
 
-Splitting a single-file prototype into typed modules (`types.ts`, `data/`, `components/`) made the page far easier to change, and strict TypeScript caught prop mistakes before the browser did. The hardest part was restraint: one accent color, one type family, and letting spacing do the work.
+This started as one big JSX file. Splitting it into typed modules (`types.ts`, `data/`, `components/`) made changes much less scary, and strict TypeScript caught prop mistakes before the browser did. The hardest part was not adding things: one accent color, one font family, and a lot of whitespace.
