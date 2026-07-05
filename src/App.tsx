@@ -1,7 +1,7 @@
 import { Nav } from "./components/Nav";
 import { Hero } from "./components/Hero";
 import { Work } from "./components/Work";
-import { Coverage } from "./components/Coverage";
+import { Skills } from "./components/Skills";
 import { StackSection } from "./components/StackSection";
 import { Contact } from "./components/Contact";
 import { Footer } from "./components/Footer";
@@ -13,7 +13,7 @@ export default function App() {
       <main id="top" className="mx-auto max-w-6xl px-5">
         <Hero />
         <Work />
-        <Coverage />
+        <Skills />
         <StackSection />
         <Contact />
       </main>

@@ -52,7 +52,7 @@ export const PROJECTS: Project[] = [
     proves:
       "Async fetching, debounced search with request cancellation, routing, pagination, and loading / error / empty states.",
     stack: ["React", "TypeScript", "React Router", "REST"],
-    covers: ["ts", "react", "rest", "ux", "clean"],
+    covers: ["ts", "react", "rest", "ux", "clean", "git"],
     demo: "https://cinescope-omega-five.vercel.app",
     repo: "https://github.com/KaMoWEN/cinescope",
   },
@@ -64,7 +64,7 @@ export const PROJECTS: Project[] = [
     proves:
       "Reducer-based state management, domain modelling in TypeScript, unit-tested logic, and accessible drag-and-drop.",
     stack: ["React", "TypeScript", "dnd-kit", "Vitest"],
-    covers: ["ts", "react", "arch", "clean", "ux"],
+    covers: ["ts", "react", "arch", "clean", "ux", "git"],
     demo: "https://flowboard-ruby.vercel.app",
     repo: "https://github.com/KaMoWEN/flowboard",
   },
@@ -76,7 +76,7 @@ export const PROJECTS: Project[] = [
     proves:
       "React Native fundamentals, a shared typed API layer, mobile UX, and REST integration without an API key.",
     stack: ["React Native", "TypeScript", "Expo", "REST"],
-    covers: ["ts", "rn", "rest", "arch"],
+    covers: ["ts", "rn", "rest", "arch", "git"],
     repo: "https://github.com/KaMoWEN/pocketweather",
   },
 ];
