@@ -37,8 +37,9 @@ export function Hero() {
         {...enter(0.16)}
         className="mt-7 max-w-xl text-lg leading-relaxed text-zinc-400"
       >
-        React, TypeScript and React Native. I turn product requirements into
-        clean, reusable UI, and I ship it.
+        I&apos;m Danila, a frontend developer. I turn product requirements
+        into clean, reusable UI with React, TypeScript and React Native, and I
+        ship it.
       </motion.p>
 
       <motion.div {...enter(0.24)} className="mt-10 flex flex-wrap gap-3">

@@ -34,6 +34,18 @@ export const PROJECTS: Project[] = [
   },
   {
     code: "02",
+    icon: ChartLineUpIcon,
+    title: "MarketDesk",
+    tagline: "Crypto market and portfolio tracker with live prices.",
+    proves:
+      "Server-side API key via a serverless proxy, React Query data layer, pure unit-tested portfolio math, code-splitting, and CI.",
+    stack: ["React", "TanStack Query", "Recharts", "Serverless"],
+    covers: ["react", "web", "rest", "arch", "clean", "ux", "git"],
+    demo: "https://market-desk-five.vercel.app",
+    repo: "https://github.com/KaMoWEN/MarketDesk",
+  },
+  {
+    code: "03",
     icon: FilmSlateIcon,
     title: "CineScope",
     tagline: "Movie discovery app driven by the TMDB REST API.",
@@ -45,7 +57,7 @@ export const PROJECTS: Project[] = [
     repo: "https://github.com/KaMoWEN/cinescope",
   },
   {
-    code: "03",
+    code: "04",
     icon: KanbanIcon,
     title: "FlowBoard",
     tagline: "A Kanban board with drag-and-drop and persistent state.",
@@ -57,7 +69,7 @@ export const PROJECTS: Project[] = [
     repo: "https://github.com/KaMoWEN/flowboard",
   },
   {
-    code: "04",
+    code: "05",
     icon: DeviceMobileIcon,
     title: "PocketWeather",
     tagline: "A weather app for iOS and Android built with Expo.",
@@ -66,18 +78,6 @@ export const PROJECTS: Project[] = [
     stack: ["React Native", "TypeScript", "Expo", "REST"],
     covers: ["ts", "rn", "rest", "arch"],
     repo: "https://github.com/KaMoWEN/pocketweather",
-  },
-  {
-    code: "05",
-    icon: ChartLineUpIcon,
-    title: "MarketDesk",
-    tagline: "Crypto market and portfolio tracker with live prices.",
-    proves:
-      "Server-side API key via a serverless proxy, React Query data layer, pure unit-tested portfolio math, code-splitting, and CI.",
-    stack: ["React", "TanStack Query", "Recharts", "Serverless"],
-    covers: ["react", "web", "rest", "arch", "clean", "ux", "git"],
-    demo: "https://market-desk-five.vercel.app",
-    repo: "https://github.com/KaMoWEN/MarketDesk",
   },
 ];
 

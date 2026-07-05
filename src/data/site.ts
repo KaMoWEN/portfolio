@@ -4,7 +4,7 @@ export const SITE = {
   github: "https://github.com/KaMoWEN",
   email: "karnadg12345@gmail.com",
   location: "Nha Trang, Vietnam",
-  availability: "Open to junior frontend roles",
+  availability: "Open to frontend roles",
 } as const;
 
 export const NAV = [

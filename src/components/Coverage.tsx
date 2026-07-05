@@ -9,7 +9,7 @@ export function Coverage() {
           Requirement coverage
         </h2>
         <p className="mt-2 mb-8 max-w-2xl text-sm leading-relaxed text-zinc-400">
-          Every skill a junior frontend role asks for, mapped to the project
+          Every skill a frontend role asks for, mapped to the project
           that demonstrates it. A filled square means the project covers that
           skill.
         </p>

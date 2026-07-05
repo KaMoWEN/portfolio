@@ -10,7 +10,7 @@ export function Contact() {
           Let&apos;s build something.
         </h2>
         <p className="mt-5 max-w-lg leading-relaxed text-zinc-400">
-          I&apos;m looking for a junior frontend role where I can grow, ship
+          I&apos;m looking for a frontend role where I can grow, ship
           real product, and work with a strong team.
         </p>
         <div className="mt-9 flex flex-wrap items-center gap-x-6 gap-y-4">
