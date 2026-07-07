@@ -29,7 +29,7 @@ export const PROJECTS: Project[] = [
       "Component architecture, typed props, responsive layout, and attention to detail.",
     stack: ["React", "TypeScript", "Vite", "Tailwind"],
     covers: ["ts", "react", "web", "ux", "git", "clean"],
-    demo: "https://portfolio-pi-one-55befe706c.vercel.app",
+    demo: "https://kamowen.vercel.app",
     repo: "https://github.com/KaMoWEN/portfolio",
   },
   {

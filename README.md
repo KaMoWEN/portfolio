@@ -2,7 +2,7 @@
 
 My personal site. React + TypeScript, dark theme, one accent color.
 
-Live: [portfolio-pi-one-55befe706c.vercel.app](https://portfolio-pi-one-55befe706c.vercel.app)
+Live: [kamowen.vercel.app](https://kamowen.vercel.app)
 
 ![Screenshot](./screenshot.png)
 
